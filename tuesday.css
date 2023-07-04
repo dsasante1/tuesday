@@ -310,8 +310,9 @@ nav{
 
 #influence{
 	width: 375px;
-	height: 617px;
-	flex-shrink: 0;
+	height: 685px;
+	
+
 	background-color: #FFFFFF;
 	display:flex;
 	flex-direction: column;
@@ -325,6 +326,11 @@ nav{
 	margin-top: 72px;
 	margin-bottom: 51px;
 	margin-left: 20px;
+	width: 96px;
+	height: auto;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #earn{
@@ -337,6 +343,10 @@ nav{
 	font-weight: 500;
 	line-height: 101.6%;
 	letter-spacing: -1.02px;
+	margin-top: 40px;
+	margin-right: 32px;
+	margin-left: 32px;
+	margin-bottom: 24px;
 }
 
 #earnText{
@@ -349,42 +359,80 @@ nav{
 	font-family: DM Sans;
 	font-style: normal;
 	font-weight: 400;
+	width: 311px; width: 311px; 
 	line-height: 150%;
+	margin-top: 24px;
+	margin-right: 32px;
+	margin-left: 32px;
+	margin-bottom: 31px;
 
 }
 
 
 #phone2{
-background: url(phone2.png), lightgray 50% / cover no-repeat;
+background: url(phone2.png), white 20% / cover no-repeat;
+margin-right: 73px;
+margin-left: 6px;
 }
 
 
 .filter{
-	width: 375px;
+
 	height: 560px;
+	background: #000;
+
 }
+
+
+#filterInfluence{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 100px;
+
+}
+
+
+
+#filterInfluencer{
+	color: #000;
+	font-size: 14px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 116.6%;
+	letter-spacing: -0.42px;
+	border-radius: 50px;
+	background: #FF8C62;
+	width: 96px;
+	height: 27px; 
+}
+
 
 #filterIcon{
 	width: 48px;
-height: 48px;
-border-radius: 48px;
-border: 2.5px solid #FF8C62;
+	height: 48px;
+	border-radius: 48px;
+	border: 2.5px solid #FF8C62;
 
 }
 
 
 #filterTitle{
 	color: #FFF;
-font-size: 34px;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-line-height: 101.1%;
-letter-spacing: -1.02px;
-display: flex;
-width: 311px;
-flex-direction: column;
-flex-shrink: 0;
+	font-size: 34px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 101.1%;
+	letter-spacing: -1.02px;
+	display: flex;
+	width: 311px;
+	flex-direction: column;
+	margin-top: 55px;
+	margin-bottom: 26px;
+	margin-left: 32px;
+	margin-right: 32px;
 
 
 
@@ -394,17 +442,126 @@ flex-shrink: 0;
 
 
 #filterText{
-	display: flex;
-width: 311px;
-flex-direction: column;
-flex-shrink: 0;
-color: #FFF;
 
-/* Body Mobile */
-font-size: 16px;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 400;
-line-height: 150%;
-opacity: 0.6000000238418579;
+	/* width: 311px; */
+	
+
+	color: #FFF;
+
+	/* Body Mobile */
+	font-size: 16px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	opacity: 0.6000000238418579;
+
+	margin-right: 32px;
+	margin-left: 32px;
+	margin-bottom: 138px;
+}
+
+
+.ear1ReassuranceSection{
+	height: 1639px; 
+	background: #FFF;
+	border: solid;
+	
+
+}
+
+
+#ear1Reassurance{
+	color: #007640;
+	display: block;
+
+	/* H2 Mobile */
+	font-size: 34px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 101.6%;
+	letter-spacing: -1.02px;
+	width: 311px; 
+	margin-top: 56px;
+	margin-bottom: 76px;
+	margin: 32px;
+}
+
+.stepIndicator{
+	display: flex;
+	flex-direction: row;
+}
+
+#steps{
+
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+#stepTexts{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#circle{
+	color: #0000004D;
+	
+	padding: 10px;
+
+
+	border: #C4C4C4 solid;
+	width: 12px;
+	height: 12px; 
+	border-radius: 25px;
+	border: solid ;
+	margin-left: 20px;
+	margin-right: 32px;
+	margin-top: 8px;
+}
+
+#line{
+	width: 1px;
+	height: 100px;
+	color: #0000004D;
+	background-color: #0000004D;
+	border: 1px solid;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+
+#stepTextTitle{
+	color: var(--black, #121212);
+	font-size: 24px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 116.6%;
+	letter-spacing: -0.72px;
+	margin-top: 1px;
+	margin-right: 32px;
+
+	margin-bottom: 16px;
+
+}
+
+#stepTexts{
+	color: var(--black, #121212);
+
+	/* Body Mobile */
+	font-size: 16px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	opacity: 0.6000000238418579;
+	margin-right: 32px;
+
+	margin-bottom: 54px;
+
+
 }
