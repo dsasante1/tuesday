@@ -1,0 +1,238 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	width:412px
+}
+
+nav{
+	
+	height: 1017px;
+	flex-shrink: 0;
+	background: url(noise.png), lightgray 0% 0% / 100px 100px repeat;
+	background-color: #047943;
+
+}
+
+.bannerLogo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 196px;
+
+	
+}
+
+#companyLogo{
+	width: 124px;
+	height: 47.118675231933594px;
+	top: 41px;
+	left: 16px;
+	margin-top: 41px;
+	margin-left: 16px;
+
+
+	
+}
+
+#navIcon{
+	width: 23px;
+	height: 16.099998474121094px;
+	top: 42px;
+	left: 336px;
+	padding: 0px 0px 0.0000019073486328125px 0px;
+	margin-top: 42px;
+	margin-right: 16px;
+
+}
+
+#heroContent{
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+#heroContent span{
+	color: #FFF;
+	text-align: center;
+	font-size: 54px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 100.1%;
+	letter-spacing: -2.7px;
+	margin-top: 88px;
+	margin-bottom: 24px;
+}
+
+#heroContent p{
+	color: #FFF;
+	text-align: center;
+	font-size: 16px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	opacity: 0.8999999761581421;
+	width: 311px; 
+	margin-left: 40px;
+	margin-right: 34px;
+	margin-bottom: 40px;
+}
+
+.storeImages{
+	margin-left: 80px;
+	margin-right: 66px;
+	margin-bottom: 80px;
+	width: 242px;
+	height: 76px;
+}
+
+#phone{
+	margin-top: 40px;
+	/* margin-left: 5px; */
+	margin-right: 70px;
+}
+
+
+#midContent{
+	background-color: white;
+	background: url(noise2.png), white 0% 0% / 100px 100px repeat;
+	height: 350px;
+	position: static;
+
+}
+
+
+
+#midContent span{
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+	position:absolute;
+	color: #007640;
+	width: 300px; 
+
+	font-size: 34px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 101.6%;
+	letter-spacing: -1.02px;
+	z-index: 1;
+
+}
+
+
+#midContent p{
+	position:absolute;
+	color: #000;
+
+	/* Body Mobile */
+	font-size: 16px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	opacity: 0.6000000238418579;
+	margin-top: 150px;
+	margin-left: 40px;
+	margin-right: 40px;
+	width:320px;
+	z-index: 1;
+}
+
+#midContent img{
+	position: relative;
+	/* top: 5px; */
+	left: 150px;
+	width: 350.009px;
+	height: 200.856px;
+	transform: rotate(11.994deg); 
+	
+}
+
+
+.passportPicture{
+	width: 223.536px;
+	height: 260.792px;
+
+	margin: 50px;
+	margin-left: 90px;
+	background-color:  #C4C4C4;;
+
+
+}
+
+.passportPicture img{
+	width: 223.536px;
+	height: 260.792px;
+	margin: 50px;
+	z-index: 1;
+
+
+}
+
+
+#connect{
+	color: #000;
+
+	/* H2 Mobile */
+	margin: 45px;
+	font-size: 34px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 101.6%;
+	letter-spacing: -1.02px;
+	width: 311px;
+}
+
+
+#connectText{
+	opacity: 0.6000000238418579;
+	color: #121212;
+
+	/* Body Mobile */
+	font-size: 16px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	width: 311px; 
+	margin: 45px;
+
+}
+
+
+#assurance{
+	background: url(noise.png), lightgray 0% 0% / 100px 100px repeat;
+	background-color: #047943;
+	width: 375px;
+	height: 560px;
+	flex-shrink: 0;
+
+}
+
+#fans{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+#fans span{
+	color: #000;
+	font-size: 14px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 116.6%;
+	letter-spacing: -0.42px;
+}
