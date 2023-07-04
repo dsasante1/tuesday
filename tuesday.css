@@ -491,6 +491,7 @@ margin-left: 6px;
 .stepIndicator{
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 40px;
 }
 
 #steps{
@@ -565,3 +566,66 @@ margin-left: 6px;
 
 
 }
+
+
+.phoneCard{
+	position: relative;
+}
+
+#phone2{
+	background: url(phone2.png), white 20% / cover no-repeat;
+	margin-right: 73px;
+	margin-left: 6px;
+	}
+
+
+.gameCard{
+	width: 335px;
+	height: 551px;
+	flex-shrink: 0;
+	border-radius: 50px;
+	background: url(noise.png), lightgray 0% 0% / 100px 100px repeat;
+	background-color: #047943;
+	z-index: 1;
+	position: absolute;
+	top: 400px;
+	margin-left: 35px;
+
+}
+
+
+footer{
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+
+
+#footerTitles{
+	color: var(--black, #121212);
+	font-size: 20px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	margin-top: 52px;
+	margin-left: 32px;
+	margin-bottom: 32px;
+
+}
+
+#footerLinks{
+	color: var(--black, #121212);
+
+	/* Body Mobile */
+	font-size: 16px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 24px;
+	margin-left: 32px;
+}
+
