@@ -157,48 +157,57 @@ nav{
 	
 }
 
+.connect{
 
-.passportPicture{
-	width: 223.536px;
-	height: 260.792px;
+	height: 681px;
+	flex-shrink: 0;
+	position: relative;
+}
+
+
+#passportPicture{
+	width: 210px;
+	height: 250.792px;
 
 	margin: 50px;
 	margin-left: 90px;
-	background-color:  #C4C4C4;;
+	background-color:  #C4C4C4;
+	/* border: solid #FFBB62; */
 
 
 }
 
-.passportPicture img{
+#passportPicture img{
+
 	width: 223.536px;
 	height: 260.792px;
-	margin: 50px;
+	
 	z-index: 1;
 
 
 }
 
 
-#connect{
+#connectTitle{
 	color: #000;
 
-	/* H2 Mobile */
-	margin: 45px;
+	margin-left: 32px;
+	margin-top: 64.23px;
+	margin-right: 32px;
+	display: block;
 	font-size: 34px;
 	font-family: DM Sans;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 101.6%;
 	letter-spacing: -1.02px;
-	width: 311px;
+	width: 311px; 
 }
 
 
 #connectText{
 	opacity: 0.6000000238418579;
 	color: #121212;
-
-	/* Body Mobile */
 	font-size: 16px;
 	font-family: DM Sans;
 	font-style: normal;
@@ -213,9 +222,12 @@ nav{
 #assurance{
 	background: url(noise.png), lightgray 0% 0% / 100px 100px repeat;
 	background-color: #047943;
-	width: 375px;
+
 	height: 560px;
 	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+
 
 }
 
@@ -224,15 +236,175 @@ nav{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
 
 }
 
-#fans span{
+#fansText{
 	color: #000;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: DM Sans;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 116.6%;
+	/* line-height: 116.6%; */
 	letter-spacing: -0.42px;
+
+	border-radius: 15px; 
+	padding: 5px;
+	width: 60px;
+	height: 30px; 
+	background: #FFBB62;
+
+}
+
+
+#fansChat{
+	width: 30px;
+	height: 30px;
+	border-radius: 48px;
+	
+	border: 3px solid #FFBB62 ;
+}
+
+
+#reply{
+	color: #FFF;
+
+/* H2 Mobile */
+	font-size: 34px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 101.6%;
+	letter-spacing: -1.02px;
+	margin-top: 56px;
+	margin-left: 32px;
+	margin-right: 32px;
+	margin-bottom: 24px;
+}
+
+
+#replyText{
+
+	color: #FFF;
+
+	/* Body Mobile 2 */
+	font-size: 16px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	opacity: 0.8999999761581421;
+	margin-top: 24px;
+	margin-left: 32px;
+	margin-right: 32px;
+	margin-bottom: 152px;
+
+
+
+}
+
+
+
+#influence{
+	width: 375px;
+	height: 617px;
+	flex-shrink: 0;
+	background-color: #FFFFFF;
+	display:flex;
+	flex-direction: column;
+
+	
+}
+
+#influencer{
+	border-radius: 50px;
+	background: #FF8C62;
+	margin-top: 72px;
+	margin-bottom: 51px;
+	margin-left: 20px;
+}
+
+#earn{
+	color: var(--black, #121212);
+	width: 311px; 
+	/* H2 Mobile */
+	font-size: 34px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 101.6%;
+	letter-spacing: -1.02px;
+}
+
+#earnText{
+	opacity: 0.6000000238418579;
+	color: var(--black, #121212);
+	width: 311px; 
+
+	/* Body Mobile */
+	font-size: 16px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+
+}
+
+
+#phone2{
+background: url(phone2.png), lightgray 50% / cover no-repeat;
+}
+
+
+.filter{
+	width: 375px;
+	height: 560px;
+}
+
+#filterIcon{
+	width: 48px;
+height: 48px;
+border-radius: 48px;
+border: 2.5px solid #FF8C62;
+
+}
+
+
+#filterTitle{
+	color: #FFF;
+font-size: 34px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+line-height: 101.1%;
+letter-spacing: -1.02px;
+display: flex;
+width: 311px;
+flex-direction: column;
+flex-shrink: 0;
+
+
+
+
+}
+
+
+
+#filterText{
+	display: flex;
+width: 311px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+
+/* Body Mobile */
+font-size: 16px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+opacity: 0.6000000238418579;
 }
