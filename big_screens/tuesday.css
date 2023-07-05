@@ -1,7 +1,9 @@
 
 /* bigger screens  */
 
-
+.body{
+	width:960px
+}
 
 *{
 	margin: 0px;
@@ -156,7 +158,7 @@ nav{
 #midContent{
 	background-color: white;
 	background: url(noise2.png), white 0% 0% / 100px 100px repeat;
-	height: 350px;
+	height: 400px;
 	position: static;
 	z-index: 5;
 
@@ -231,46 +233,101 @@ nav{
 	height: 681px;
 	
 	position: relative;
+	border: solid;
 }
 
 
 #passportPicture{
-	width: 210px;
-	height: 250.792px;
 
-	margin: 50px;
-	margin-left: 90px;
-	background-color:  #C4C4C4;
+
+
+	/* margin: 50px; */
+	/* margin-right: 80px; */
+	/* background-color:  #C4C4C4; */
 	/* border: solid #FFBB62; */
 
 
 }
 
+
+
+
+
 #passportPicture img{
 
 	width: 223.536px;
 	height: 260.792px;
+	position: absolute;
 	
-	z-index: 1;
+}
 
+
+
+
+
+
+/* 
+#passport_picture1{
+	z-index: 1;
+	position: absolute;
+	right: 50px;
+}
+
+#passport_picture2{
+	z-index: 2;
+	position: absolute;
+	right: 50px;
+} */
+
+
+
+
+
+#passport_picture3{
+	/* z-index: 3; */
+	position;
+	left: 50px;
+}
+
+
+#fansText1{
+	position: absolute;
+	color: #000;
+	font-size: 16px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	/* line-height: 116.6%; */
+	letter-spacing: -0.42px;
+	margin-top: 150px;
+	margin-left: 60px;
+	border-radius: 15px; 
+	padding-top: 5px;
+	padding-left: 10px;
+
+	padding-right: 10px;
+	width: 60px;
+	height: 30px; 
+	background: #FFBB62;
 
 }
+
 
 
 #connectTitle{
 	color: #000;
 
-	margin-left: 32px;
-	margin-top: 64.23px;
+	margin-left: 60px;
+	margin-top: 250px;
 	margin-right: 32px;
 	display: block;
 	font-size: 34px;
 	font-family: DM Sans;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 500px;
 	line-height: 101.6%;
 	letter-spacing: -1.02px;
-	width: 311px; 
+	width: 250px; 
 }
 
 
@@ -282,23 +339,35 @@ nav{
 	font-style: normal;
 	font-weight: 400;
 	line-height: 150%;
-	width: 311px; 
-	margin: 45px;
+	width: 311px;
+	margin-left: 60px; 
+	margin-top: 45px;
 
 }
 
 
-/* #assurance{
+
+#assuranceDivision{
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+
+
+
+#assurance{
 	background: url(noise.png), lightgray 0% 0% / 100px 100px repeat;
 	background-color: #047943;
 
 	height: 560px;
-	
+
 	display: flex;
 	flex-direction: column;
 
 
-} */
+}
 
 #fans{
 
@@ -385,23 +454,122 @@ nav{
 
 
 
-#influence{
-	width: 375px;
-	height: 685px;
-	
+#chatMessage{
+	background: url(noise.png), lightgray 0% 0% / 100px 100px repeat;
+	width: 420px;
+	height: 561px;
+	flex-shrink: 0;
 
-	background-color: #FFFFFF;
-	display:flex;
-	flex-direction: column;
-
-	
 }
+
+
+#userProfile{
+	display: flex;
+	flex-direction: row;
+	background-color: #FFFFFF;
+	margin-left: 70px;
+	margin-right: 70px;
+
+}
+
+
+
+#chatMessage p{
+	background-color: #FFFFFF;
+
+
+}
+
+
+
+
+#txtMessages1{
+	position: relative;
+	top: 60px;
+	right: 3px;
+	margin-left: 90px;
+	padding: 20px;
+
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+
+}
+
+
+#txtMessages2{
+	position: relative;
+	top: 90px;
+	left: 1px;
+	margin-right: 90px;
+	padding: 20px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+
+#txtMessages3{
+	position: relative;
+	top: 120px;
+	left: 1px;
+	margin-right: 90px;
+	padding: 20px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+
+#createTxtMessages{
+	position: relative;
+	top: 220px;
+	left: 50px;
+	padding: 20px;
+	margin-right: 90px;
+	border-radius: 20px;
+}
+
+
+
+#influenceDivision{
+	width:960px;
+	height: 400px;
+	
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+
+	border: solid;
+}
+
+#influencePhone{
+	position: relative;
+	top: 120px;
+	left: 30px;
+}
+
+
+
+
+
+
+
+#influence{
+	display:flex;
+	flex-direction: column;	
+	position: relative;
+	left: 100px;
+	top: 30px;
+} 
+
+
 
 #influencer{
 	border-radius: 50px;
 	background: #FF8C62;
-	margin-top: 72px;
-	margin-bottom: 51px;
+	margin-top: 90px;
+	/* margin-bottom: 30px; */
 	margin-left: 20px;
 	width: 96px;
 	height: auto;
@@ -413,37 +581,35 @@ nav{
 #earn{
 	color: var(--black, #121212);
 	width: 311px; 
-	/* H2 Mobile */
+
 	font-size: 34px;
 	font-family: DM Sans;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 101.6%;
 	letter-spacing: -1.02px;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-right: 32px;
 	margin-left: 32px;
-	margin-bottom: 24px;
+	/* margin-bottom: 24px; */
 }
 
 #earnText{
 	opacity: 0.6000000238418579;
 	color: var(--black, #121212);
-	width: 311px; 
 
-	/* Body Mobile */
 	font-size: 16px;
 	font-family: DM Sans;
 	font-style: normal;
 	font-weight: 400;
-	width: 311px; width: 311px; 
+	width: 311px; 
 	line-height: 150%;
 	margin-top: 24px;
 	margin-right: 32px;
 	margin-left: 32px;
-	margin-bottom: 31px;
+	/* margin-bottom: 31px; */
 
-}
+} 
 
 
 /* #phone2{
@@ -451,6 +617,14 @@ background: url(phone2.png), white 20% / cover no-repeat;
 margin-right: 73px;
 margin-left: 6px;
 } */
+
+
+#filterDivision{
+	display: flex;
+	flex-direction: row;
+	
+
+}
 
 
 .filter{
@@ -749,15 +923,16 @@ hr{
 footer{
 	display: flex;
 	flex-direction: row;
-	width: 1440px;
-height: 608px;
-flex-shrink: 0;
+	width: 960px;
+	height: 608px;
+	flex-shrink: 0;
 
 }
 
 
 #leftFooterContent{
-	margin: 30px;
+	margin: 50px;
+	
 }
 
 
@@ -921,7 +1096,7 @@ height: 56px;
 	display: flex;
 
 	flex-direction: row;
-	flex-shrink: 0;
+	gap: 30px;
 
 }
 
