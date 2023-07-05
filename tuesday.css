@@ -5,14 +5,13 @@
 	box-sizing: border-box;
 }
 
-body{
-	width:412px
-}
+
+
 
 nav{
 	
 	height: 1017px;
-	
+	width:412px;
 	background: url(noise.png), lightgray 0% 0% / 100px 100px repeat;
 	background-color: #047943;
 
@@ -104,6 +103,7 @@ nav{
 	background-color: white;
 	background: url(noise2.png), white 0% 0% / 100px 100px repeat;
 	height: 350px;
+	width:412px;
 	position: static;
 
 }
@@ -160,7 +160,7 @@ nav{
 .connect{
 
 	height: 681px;
-	
+	width:412px;
 	position: relative;
 }
 
@@ -224,6 +224,7 @@ nav{
 	background-color: #047943;
 
 	height: 560px;
+	width:412px;
 	
 	display: flex;
 	flex-direction: column;
@@ -280,7 +281,7 @@ nav{
 #reply{
 	color: #FFF;
 
-/* H2 Mobile */
+
 	font-size: 34px;
 	font-family: DM Sans;
 	font-style: normal;
@@ -344,7 +345,7 @@ nav{
 #earn{
 	color: var(--black, #121212);
 	width: 311px; 
-	/* H2 Mobile */
+	
 	font-size: 34px;
 	font-family: DM Sans;
 	font-style: normal;
@@ -387,6 +388,7 @@ margin-left: 6px;
 .filter{
 
 	height: 560px;
+	width:412px;
 	background: #000;
 	display: block;
 
@@ -470,8 +472,6 @@ margin-left: 6px;
 	
 
 	color: #FFF;
-
-	/* Body Mobile */
 	font-size: 16px;
 	font-family: DM Sans;
 	font-style: normal;
@@ -486,7 +486,8 @@ margin-left: 6px;
 
 
 .ear1ReassuranceSection{
-	height: 1639px; 
+	height: 1639px;
+	width:412px; 
 	background: #FFF;
 
 
@@ -497,7 +498,7 @@ margin-left: 6px;
 	color: #007640;
 	display: block;
 
-	/* H2 Mobile */
+	
 	font-size: 34px;
 	font-family: DM Sans;
 	font-style: normal;
@@ -636,7 +637,6 @@ margin-left: 6px;
 	display: block;
 	color: #FFF;
 
-/* Body Mobile 2 */
 	font-size: 16px;
 	font-family: DM Sans;
 	font-style: normal;
@@ -672,6 +672,7 @@ margin-left: 6px;
 
 hr{
 	height:1px;
+	width:412px;
 	border-width:0;
 	color:gray;
 	background-color:gray
@@ -680,6 +681,7 @@ hr{
 footer{
 	display: flex;
 	flex-direction: column;
+	width:412px;
 
 }
 
@@ -841,12 +843,28 @@ footer{
 
 
 
+
+
+/* for bigger screens */
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 992px) {
 
 
 nav{
 	
-	height: 1017px;
+	width: 1440px;
+	height: 1407px;
+	flex-shrink: 0;
 	
 	background: url(noise.png), lightgray 0% 0% / 100px 100px repeat;
 	background-color: #047943;
@@ -1105,7 +1123,7 @@ nav{
 #reply{
 	color: #FFF;
 
-/* H2 Mobile */
+
 	font-size: 34px;
 	font-family: DM Sans;
 	font-style: normal;
@@ -1169,7 +1187,7 @@ nav{
 #earn{
 	color: var(--black, #121212);
 	width: 311px; 
-	/* H2 Mobile */
+	
 	font-size: 34px;
 	font-family: DM Sans;
 	font-style: normal;
@@ -1322,7 +1340,7 @@ margin-left: 6px;
 	color: #007640;
 	display: block;
 
-	/* H2 Mobile */
+	
 	font-size: 34px;
 	font-family: DM Sans;
 	font-style: normal;
