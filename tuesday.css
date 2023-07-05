@@ -252,7 +252,10 @@ nav{
 	letter-spacing: -0.42px;
 
 	border-radius: 15px; 
-	padding: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+
+	padding-right: 10px;
 	width: 60px;
 	height: 30px; 
 	background: #FFBB62;
@@ -261,11 +264,16 @@ nav{
 
 
 #fansChat{
+	position:relative;
 	width: 30px;
 	height: 30px;
 	border-radius: 48px;
-	
-	border: 3px solid #FFBB62 ;
+	left: 43px;
+	bottom: 7px;
+}
+
+#ellipsis{
+	z-index: 1;
 }
 
 
@@ -380,6 +388,7 @@ margin-left: 6px;
 
 	height: 560px;
 	background: #000;
+	display: block;
 
 }
 
@@ -388,7 +397,10 @@ margin-left: 6px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 100px;
+	gap: 163px;
+	padding-top: 120px;
+	padding-left: 32px;
+	padding-right: 32px;
 
 }
 
@@ -406,15 +418,26 @@ margin-left: 6px;
 	background: #FF8C62;
 	width: 96px;
 	height: 27px; 
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 
 #filterIcon{
-	width: 48px;
-	height: 48px;
-	border-radius: 48px;
-	border: 2.5px solid #FF8C62;
+	position: relative;
+	left: 23px;
+	bottom: 15px;
+	width: 30px;
+	height: 30px;
+}
 
+
+#ellipsis2{
+	z-index: 1;
+	position: relative;
+	right: 20px;
+	bottom: 10px;
 }
 
 
@@ -660,21 +683,81 @@ footer{
 
 }
 
+
+
 #access{
-	color: var(--black, #121212);
-font-size: 24px;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 700;
-line-height: 150%;
-width: 335px; 
+	
+	width: 335px;
+	margin-top: 59px; 
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-bottom: 28px;
 }
 
-form{
-	width: 335px;
+
+#know{
+	color: var(--black, #121212);
+	font-size: 24px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 150%;
+}
+
+
+
+#offer{
+	color: var(--black, #121212);
+	font-size: 21px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight:lighter;
+
+}
+
+
+
+
+#form{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
 	height: 56px; 
-	border-radius: 10px;
-	border: 1px solid rgba(18, 18, 18, 0.30);
+
+}
+
+#email{
+	
+	color: var(--body-color, rgba(0, 0, 0, 0.75));
+
+	font-size: 16px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 400;
+	/* line-height: 150%; */
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	 
+}
+
+
+#submit{
+	width: 112px; 
+	
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: #FFF;
+	font-size: 14px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	/* line-height: 100%; */
+	letter-spacing: 1.05px;
+	text-transform: uppercase;
+	background-color: #000;
+	border: solid;
+
 }
 
 #ear1Footer{
@@ -686,11 +769,56 @@ form{
 
 
 #socialMedia{
-	display: flex;
-	flex-direction: row;
-	margin: 20px;
-	gap: 20px;
+	display: grid;
+    grid-template-columns: 30px 30px 30px;
+
+	margin-left: 32px;
+	margin-top: 30px;
 }
+
+
+#fb{
+	z-index: 1;
+	grid-column: 1 / 1;
+
+}
+
+#fbEllipse{
+	z-index: -1;
+	grid-column: 1 / 1;
+
+}
+
+
+#tw{
+	z-index: 1;
+	grid-column: 1 / 1;
+}
+
+
+#twEllipse{
+	z-index: -1;
+	grid-column: 1 / 1;
+}
+
+
+#in{
+	z-index: 1;
+	grid-column: 1 / 1;
+}
+
+
+#inEllipse{
+	z-index: -1;
+	grid-column: 1 / 1;
+}
+
+
+
+
+
+
+
 
 #footerTitles{
 	color: var(--black, #121212);
@@ -718,3 +846,10 @@ form{
 	margin-left: 32px;
 }
 
+
+
+
+
+@media only screen and (min-width: 992px) {
+
+}
