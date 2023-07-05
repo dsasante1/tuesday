@@ -756,7 +756,7 @@ margin-left: 6px;
 
 
 .ear1ReassuranceSection{
-	height: 1600px;
+	height: 1400px;
 	width: 1273px; 
 	background: #FFF;
 	display: flex;
@@ -884,7 +884,7 @@ margin-left: 6px;
 	background-color: #047943;
 	z-index: 1;
 	position: absolute;
-	bottom: 380px;
+	bottom: 120px;
 	right: 90px;
 	display: flex;
 	flex-direction: row;
