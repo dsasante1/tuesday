@@ -621,13 +621,15 @@ margin-left: 6px;
 }
 
 #callerIDForm{
-
+	margin-top: 130px;
 	height: 300px;
-	width: 450px;
+	width: 640px;
 	background-color: #363636;
-	border: #000 solid;
 	display: flex;
 	flex-direction: column;
+	border-radius: 0px 0px 20px 20px;
+	border: 15px solid #2E2E2E;
+	box-shadow: 0px 10px 20px 0px rgba(4, 4, 4, 0.20);
 
 	
 	/* border-radius: 0px 0px 20px 20px;
@@ -640,18 +642,63 @@ margin-left: 6px;
 #userNotificationDetail{
 	display: flex;
 	flex-direction: row;
+	gap: 20px;
+	padding-top: 50px;
+	padding-left: 50px;
 
 }
+
+
+#user_profile_image{}
+
+#userFullName{
+	padding-top: 50px;
+	color: #FFF;
+	font-size: 25px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%;
+}
+
+
+#paidStatus{
+	color: #FFF;
+	font-size: 20px;
+	font-family: DM Sans;
+	font-style: normal;;
+	line-height: 150%;
+}
+
+
 
 
 #userOptions{
+	padding-top: 70px;
+	padding-left: 200px;
+	padding-right: 50px;
 	display: flex;
-	flex-direction: row;
+	gap: 10px;
+	color: white;
+
 }
 
+#decline{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color:#E34D4D;
+}
 
-
-
+#accept{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #029C56;
+	
+}
 
 
 
@@ -986,7 +1033,7 @@ footer{
 	display: flex;
 	flex-direction: row;
 	width: 960px;
-	height: 608px;
+	height: 408px;
 	flex-shrink: 0;
 
 }
@@ -1003,10 +1050,10 @@ footer{
 #access{
 	
 	
-	margin-top: 59px; 
-	margin-left: 30px;
-	margin-right: 20px;
-	margin-bottom: 28px;
+	padding-top: 59px; 
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 28px;
 }
 
 
@@ -1038,7 +1085,7 @@ footer{
 	flex-direction: row;
 	justify-content: center;
 	width: 892px;
-height: 56px;
+	height: 56px;
 
 
 }
