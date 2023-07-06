@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 800px) {
 *{
 	margin: 0px;
 	padding: 0px;
@@ -12,8 +12,7 @@
 
 nav{
 	
-	height: 1017px;
-	width:412px;
+	padding: 40px;
 	background: url(noise.png), lightgray 0% 0% / 100px 100px repeat;
 	background-color: #047943;
 
@@ -80,17 +79,19 @@ nav{
 	font-weight: 500;
 	line-height: 150%;
 	opacity: 0.8999999761581421;
-	width: 311px; 
-	margin-left: 40px;
-	margin-right: 34px;
-	margin-bottom: 40px;
+
+	padding-left: 40px;
+	padding-right: 34px;
+	padding-bottom: 40px;
 }
 
 .storeImages{
-	margin-left: 80px;
+	/* margin-left: 80px;
 	margin-right: 66px;
+	*/
 	margin-bottom: 80px;
-	width: 242px;
+	padding-left: 50px;
+	/* width: 242px; */
 	height: 76px;
 }
 
@@ -152,18 +153,18 @@ nav{
 #midContent img{
 	position: relative;
 	/* top: 5px; */
-	left: 150px;
-	width: 350.009px;
+	right: 0px;
+
 	height: 200.856px;
-	transform: rotate(11.994deg); 
+	transform: rotate(9.994deg); 
 	
 }
 
 .connect{
 
-	height: 681px;
-	width:412px;
+	padding: 40px;
 	position: relative;
+	;
 }
 
 
@@ -193,9 +194,7 @@ nav{
 #connectTitle{
 	color: #000;
 
-	margin-left: 32px;
-	margin-top: 64.23px;
-	margin-right: 32px;
+
 	display: block;
 	font-size: 34px;
 	font-family: DM Sans;
@@ -216,7 +215,7 @@ nav{
 	font-weight: 400;
 	line-height: 150%;
 	width: 311px; 
-	margin: 45px;
+
 
 }
 
@@ -225,8 +224,7 @@ nav{
 	background: url(noise.png), lightgray 0% 0% / 100px 100px repeat;
 	background-color: #047943;
 
-	height: 560px;
-	width:412px;
+	padding: 40px;
 	
 	display: flex;
 	flex-direction: column;
@@ -320,8 +318,7 @@ nav{
 
 
 #influence{
-	width: 375px;
-	height: 685px;
+	padding: 40px;
 	
 
 	background-color: #FFFFFF;
@@ -381,7 +378,7 @@ nav{
 
 
 #phone2{
-background: url(phone2.png), white 20% / cover no-repeat;
+/* background: url(phone2.png), white 20% / cover no-repeat; */
 margin-right: 73px;
 margin-left: 6px;
 }
@@ -389,10 +386,10 @@ margin-left: 6px;
 
 .filter{
 
-	height: 560px;
-	width:412px;
+	padding: 40px;
 	background: #000;
 	display: block;
+	position: relative;
 
 }
 
@@ -405,6 +402,7 @@ margin-left: 6px;
 	padding-top: 120px;
 	padding-left: 32px;
 	padding-right: 32px;
+	position: relative;
 
 }
 
@@ -430,7 +428,7 @@ margin-left: 6px;
 
 #filterIcon{
 	position: relative;
-	left: 23px;
+	right: 25px;
 	bottom: 15px;
 	width: 30px;
 	height: 30px;
@@ -440,8 +438,8 @@ margin-left: 6px;
 #ellipsis2{
 	z-index: 1;
 	position: relative;
-	right: 20px;
-	bottom: 10px;
+	right: 32px;
+	bottom: 58px;
 }
 
 
@@ -488,9 +486,9 @@ margin-left: 6px;
 
 
 .ear1ReassuranceSection{
-	height: 1639px;
-	width:412px; 
+	padding: 40px; 
 	background: #FFF;
+	;
 
 
 }
@@ -578,7 +576,7 @@ margin-left: 6px;
 #stepTexts{
 	color: var(--black, #121212);
 
-	/* Body Mobile */
+	
 	font-size: 16px;
 	font-family: DM Sans;
 	font-style: normal;
@@ -598,7 +596,7 @@ margin-left: 6px;
 }
 
 #phone2{
-	background: url(phone2.png), white 20% / cover no-repeat;
+	/* background: url(phone2.png), white 20% / cover no-repeat; */
 	margin-right: 73px;
 	margin-left: 6px;
 	}
@@ -613,7 +611,7 @@ margin-left: 6px;
 	background-color: #047943;
 	z-index: 1;
 	position: absolute;
-	top: 400px;
+	top: 200px;
 	margin-left: 35px;
 
 }
@@ -850,7 +848,7 @@ footer{
 /* for bigger screens */
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
 
 
 
@@ -873,12 +871,23 @@ footer{
 
 
 
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
 nav{
 	
 	width: 1273px;
-	height: 970px; 
+	padding: 20px;
 	background: url(noise.png), lightgray 0% 0% / 100px 100px repeat;
 	background-color: #047943;
+	position: relative;
 
 }
 
@@ -977,44 +986,45 @@ nav{
 
 	position: relative;
 	padding: 30px;
-	/* z-index: 1; */
+
 	
 }
 
 
 
 #phone11{
-	position: absolute;
+	position: relative;
 	/* z-index: 2; */
 	width: 600px;
-	left: 220px;
+	left: 90px;
 	
-}
+} 
 
 #phone22{
 	position: absolute;
 	z-index: 1;
 	width: 400px;
-	left:430px;
+	right:465px;
 
 }
 
 #phone33{
 	position: absolute;
 	width: 600px;
-	right: 160px
+	right: 200px
 	
-}
+} */
 
 
 #midContent{
 	background-color: white;
 	background: url(noise2.png), white 0% 0% / 100px 100px repeat;
-	height: 400px;
+	padding:50px;
 	position: relative;
-	z-index: 5;
+
 	width: 1273px;
 	;
+	
 
 }
 
@@ -1053,27 +1063,31 @@ nav{
 	margin-left: 40px;
 	/* padding-right: 40px; */
 	width: 683px;
-	z-index: 1;
+	z-index: 3;
 }
 
 #img1{
-	position: absolute;
-	bottom: 168px;
+	position: relative;
+	bottom: 200px;
 	left: 20px;
-	width: 200px;
+	width: 150px;
 	transform: rotate(40deg); 
+	z-index: 2;
 	
 }
 
 
 #img2{
-	position: absolute;
-	bottom: 73px;
-	right: 60px;
+	position: relative;
+	/* bottom: 100px; */
+	/* right: 60px; */
+	left: 700px;
+	bottom: 70px;
 	width: 250.009px;
 
+
 	transform: rotate(-90deg); 
-	
+	z-index: 1;
 }
 
 
@@ -1086,15 +1100,17 @@ nav{
 	display: flex;
 	flex-direction: row;
 	gap:250px;
-
-	height: 681px;
+	position: relative;
+	padding: 50px;
 	width: 1273px;
 }
 
 
 
 
-
+#passportPicture{
+	top: 100px;
+} 
 
 #passportPicture img{
 	
@@ -1107,6 +1123,7 @@ nav{
 
 
 #passport_picture1{
+	top: 20px;
 
 	z-index: 1;
 
@@ -1491,8 +1508,9 @@ margin-left: 6px;
 
 #callerIDForm{
 	margin-top: 130px;
+	margin-left: 90px;
 	height: 300px;
-	width: 640px;
+	width: 440px;
 	background-color: #363636;
 	display: flex;
 	flex-direction: column;
@@ -1544,7 +1562,7 @@ margin-left: 6px;
 
 #userOptions{
 	padding-top: 70px;
-	padding-left: 200px;
+	padding-left: 120px;
 	padding-right: 50px;
 	display: flex;
 	gap: 10px;
@@ -2110,7 +2128,5 @@ footer{
 	flex-direction: column;
 	flex-shrink: 0;
 }
-
-
 
 }
