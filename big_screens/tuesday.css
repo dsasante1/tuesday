@@ -1,5 +1,5 @@
 
-/* bigger screens  */
+
 
 
 
@@ -120,7 +120,7 @@ nav{
 
 
 
-#phone1{
+#phone11{
 	position: absolute;
 	/* z-index: 2; */
 	width: 600px;
@@ -128,7 +128,7 @@ nav{
 	
 }
 
-#phone2{
+#phone22{
 	position: absolute;
 	z-index: 1;
 	width: 400px;
@@ -136,7 +136,7 @@ nav{
 
 }
 
-#phone3{
+#phone33{
 	position: absolute;
 	width: 600px;
 	right: 160px
@@ -151,7 +151,7 @@ nav{
 	position: relative;
 	z-index: 5;
 	width: 1273px;
-	border: solid;
+	;
 
 }
 
@@ -222,13 +222,10 @@ nav{
 
 	display: flex;
 	flex-direction: row;
+	gap:250px;
 
 	height: 681px;
 	width: 1273px;
-
-	
-	position: relative;
-	border: solid;
 }
 
 
@@ -238,36 +235,45 @@ nav{
 
 #passportPicture img{
 	
+
 	width: 223.536px;
 	height: 260.792px;
 
 	
 }
 
-/* 
 
 #passport_picture1{
 
-
 	z-index: 1;
 
+	
+
 
 } 
 
 
+/*
 #passport_picture2{
 	z-index: 2;
+	padding-top: 50px;
 
 } 
 
 
-
+/*
 
 
 #passport_picture3{
 
 	left: 50px;
 }  */
+
+
+#fansInfo{
+	padding-left: 50px;
+	padding-right: 200px;
+}
 
 
 #fansText1{
@@ -521,7 +527,7 @@ nav{
 	display: flex;
 	flex-direction: row;
 
-	border: solid;
+	;
 }
 
 #influencePhone{
@@ -613,7 +619,7 @@ margin-left: 6px;
 
 	width: 50%;
 	background-color: #000;
-	background: url(caller_id_noise.png), lightgray 0% 0% / 100px 100px repeat;
+	background: url(caller_id_noise.png), #474747 0% 0% / 100px 100px repeat;
 
 
 	
@@ -808,6 +814,7 @@ margin-left: 6px;
 	background: #FFF;
 	display: flex;
 	flex-direction: row;
+	;
 
 
 
@@ -1032,9 +1039,10 @@ hr{
 footer{
 	display: flex;
 	flex-direction: row;
-	width: 960px;
+	width: 1273px;
 	height: 408px;
 	flex-shrink: 0;
+	;
 
 }
 
@@ -1119,7 +1127,7 @@ footer{
 	letter-spacing: 1.05px;
 	text-transform: uppercase;
 	background-color: #000;
-	border: solid;
+	;
 
 }
 
