@@ -862,6 +862,10 @@ footer{
 	box-sizing: border-box;
 }
 
+#bigScreen{
+	display: block;
+}
+
 
 #smallScreen{
 	display: none;
